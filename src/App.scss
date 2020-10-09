@@ -1,3 +1,14 @@
+$color-1: #f09ac4;
+$color-2: #ab94a0;
+$color-3: #010101;
+
+$family: 'Sacramento', sans-serif;
+
+@import './components/Navbar/Navbar.scss'; 
+@import './container/Home/Home.scss'; 
+@import './container/Newin/Newin.scss';
+@import './components/Form/Form.scss';
+
 .App {
   text-align: center;
 }
@@ -14,7 +25,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +46,6 @@
     transform: rotate(360deg);
   }
 }
+
+
+
