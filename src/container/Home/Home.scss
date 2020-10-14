@@ -14,7 +14,7 @@
         min-height: 350px;
     }
     .text-banner{
-        font-size: 1.8em;
+        font-size: 2.1em;
         color: $color-1;
     }
     .display-1{
@@ -24,6 +24,12 @@
     .btn {
         background-color: $color-1;
         border-color: $color-1;
+        color: $color-3;
+        &:hover{
+            color: $color-1;
+            border-color: $color-1;
+            background-color: $color-3;    
+        }
     }
 }
 

@@ -25,11 +25,11 @@
         color: $color-1;
         border-color: $color-1;
         font-family: $family;
-        font-size: 25px;
-        padding: 1px 15px 1px 15px;
+        font-size: 1.5em;
+        padding: 0.5px 15px 0.5px 15px;
         &:hover{
             background-color: $color-1;
-            color: $color-2;
+            color: $color-3;
         }
     }
     .fa-shopping-cart{
