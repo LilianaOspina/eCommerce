@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.scss";
 
-function Field({ link, text1, text2, text3 }) {
+function Dropdown({ link, text1, text2, text3 }) {
     return (
         <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="http://www.google.com.ar" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -30,16 +30,16 @@ function Navbar() {
             </a>
             <div className="nb-links navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul className="navbar-nav mr-auto">
-                    <Field link="New In" text1="Bras" text2="Panties" text3="Linguerie"></Field>
-                    <Field link="Collection" text1="SpringTime" text2="SummerTops" text3="LaceAge"></Field>
-                    <Field link="Sale" text1="2019 Temp" text2="2018 Temp" text3="Past years..."></Field>
+                    <Dropdown link="New In" text1="Bras" text2="Panties" text3="Linguerie" />
+                    <Dropdown link="Collection" text1="SpringTime" text2="SummerTops" text3="LaceAge" />
+                    <Dropdown link="Sale" text1="2019 Temp" text2="2018 Temp" text3="Past years..." />
                 </ul>
                 <ul className="navbar-nav">
-                    <Field link="Contact" text1="E-mail" text2="What's App"></Field>
+                    <Dropdown link="Contact" text1="E-mail" text2="What's App"></Dropdown>
                     <li className="nav-item active">
                         <a className="nav-link" href="http://www.google.com.ar">
-                            <i class="fas fa-shopping-cart"></i>
-                            <span class="sr-only">(current)</span>
+                            <i className="fas fa-shopping-cart"></i>
+                            <span className="sr-only">(current)</span>
                         </a>
                     </li>
                 </ul>
